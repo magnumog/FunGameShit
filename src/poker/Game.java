@@ -9,6 +9,7 @@ public class Game {
 		Table table = new Table();
 		Player playerOne = new Player();
 		Player playerTwo = new Player();
+		CheckCards cardCheck = new CheckCards();
 		Random rand = new Random();
 		
 		playerOne.addCard(deck.getCardFromDeck(rand.nextInt(deck.getDeckSize())));
@@ -29,8 +30,9 @@ public class Game {
 		System.out.println("Turn: " + table.getTurn());
 		System.out.println("River: " + table.getRiver());
 		System.out.println("Burned: " + table.getBurned());
-		
-		
+		System.out.println(cardCheck.checkForPairs(playerOne.getPlayerCards(), table.getFlop(), table.getTurn(), table.getRiver()));
+		System.out.println(cardCheck.checkForPairs(playerTwo.getPlayerCards(), table.getFlop(), table.getTurn(), table.getRiver()));
+
 	}
 
 }
