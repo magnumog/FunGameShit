@@ -30,8 +30,8 @@ public class Game {
 		System.out.println("Turn: " + table.getTurn());
 		System.out.println("River: " + table.getRiver());
 		System.out.println("Burned: " + table.getBurned());
-		System.out.println(cardCheck.checkForPairs(playerOne.getPlayerCards(), table.getFlop(), table.getTurn(), table.getRiver()));
-		System.out.println(cardCheck.checkForPairs(playerTwo.getPlayerCards(), table.getFlop(), table.getTurn(), table.getRiver()));
+		System.out.println(cardCheck.pair(playerOne.getPlayerCards(), table.getFlop(), table.getTurn(), table.getRiver()));
+		System.out.println(cardCheck.pair(playerTwo.getPlayerCards(), table.getFlop(), table.getTurn(), table.getRiver()));
 
 	}
 
