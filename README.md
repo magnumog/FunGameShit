@@ -1,1 +1,1 @@
-hello is it me you are looking for?
+This is ment to be my first poker game which i make, and it is far from perfect and it is probably some really bad code but I am learning to get better
