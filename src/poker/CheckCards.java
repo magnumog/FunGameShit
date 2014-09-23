@@ -72,5 +72,24 @@ public class CheckCards {
 		cards.clear();
 		return false;
 	}
-
+	
+	public boolean flush(ArrayList<Integer> playerCards, ArrayList<Integer> flop, ArrayList<Integer> turn, ArrayList<Integer> river) {
+		return false;
+	}
+	
+	public boolean straightFlush(ArrayList<Integer> playerCards, ArrayList<Integer> flop, ArrayList<Integer> turn, ArrayList<Integer> river) {
+		return false;
+	}
+	
+	public boolean fullHoues(ArrayList<Integer> playerCards, ArrayList<Integer> flop, ArrayList<Integer> turn, ArrayList<Integer> river) {
+		return false;
+	}
+	
+	public boolean straight(ArrayList<Integer> playerCards, ArrayList<Integer> flop, ArrayList<Integer> turn, ArrayList<Integer> river) {
+		return false;
+	}
+	
+	public boolean twoPairs(ArrayList<Integer> playerCards, ArrayList<Integer> flop, ArrayList<Integer> turn, ArrayList<Integer> river) {
+		return false;
+	}
 }
